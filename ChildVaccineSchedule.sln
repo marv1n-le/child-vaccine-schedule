@@ -3,7 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChildVaccineSchedule.API", "ChildVaccineSchedule.API\ChildVaccineSchedule.API.csproj", "{9F7FAD5E-5E85-4AAF-9148-5FFE9680FB7A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChildVaccineSchedule.API", "ChildVaccineSchedule.API\ChildVaccineSchedule.API.csproj", "{9F7FAD5E-5E85-4AAF-9148-5FFE9680FB7A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. API", "1. API", "{DA4797E6-4642-4CFA-A6A6-3822BC286FF4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Services", "2. Services", "{51A92BF8-8F26-4EBA-9C98-3CEA84D8F2D6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Repositories", "3. Repositories", "{8F908400-D3A7-4CA1-B67C-BFFEDB8F3208}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4. BOs", "4. BOs", "{7E0CD8C9-9080-4FF7-A59F-7D1B19C24043}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChildVaccineSchedule.Services", "ChildVaccineSchedule.Services\ChildVaccineSchedule.Services.csproj", "{26DC2B69-1F41-493E-B186-EAE0BDA7527D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChildVaccineSchedule.Repositories", "ChildVaccineSchedule.Repositories\ChildVaccineSchedule.Repositories.csproj", "{F48EB86D-DD17-4A3F-979C-7B8267201498}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChildVaccineSchedule.BOs", "ChildVaccineSchedule.BOs\ChildVaccineSchedule.BOs.csproj", "{BA55494C-9239-4635-A869-4367A0EF9DCA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +29,27 @@ Global
 		{9F7FAD5E-5E85-4AAF-9148-5FFE9680FB7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9F7FAD5E-5E85-4AAF-9148-5FFE9680FB7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9F7FAD5E-5E85-4AAF-9148-5FFE9680FB7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26DC2B69-1F41-493E-B186-EAE0BDA7527D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26DC2B69-1F41-493E-B186-EAE0BDA7527D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26DC2B69-1F41-493E-B186-EAE0BDA7527D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26DC2B69-1F41-493E-B186-EAE0BDA7527D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F48EB86D-DD17-4A3F-979C-7B8267201498}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F48EB86D-DD17-4A3F-979C-7B8267201498}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F48EB86D-DD17-4A3F-979C-7B8267201498}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F48EB86D-DD17-4A3F-979C-7B8267201498}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA55494C-9239-4635-A869-4367A0EF9DCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA55494C-9239-4635-A869-4367A0EF9DCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA55494C-9239-4635-A869-4367A0EF9DCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA55494C-9239-4635-A869-4367A0EF9DCA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9F7FAD5E-5E85-4AAF-9148-5FFE9680FB7A} = {DA4797E6-4642-4CFA-A6A6-3822BC286FF4}
+		{26DC2B69-1F41-493E-B186-EAE0BDA7527D} = {51A92BF8-8F26-4EBA-9C98-3CEA84D8F2D6}
+		{F48EB86D-DD17-4A3F-979C-7B8267201498} = {8F908400-D3A7-4CA1-B67C-BFFEDB8F3208}
+		{BA55494C-9239-4635-A869-4367A0EF9DCA} = {7E0CD8C9-9080-4FF7-A59F-7D1B19C24043}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {95337B38-BA9C-42CA-95F3-D5866BD6903F}
